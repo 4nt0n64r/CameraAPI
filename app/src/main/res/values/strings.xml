@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CameraAPI</string>
+    <string name="name_field_hint">Enter name</string>
+</resources>
