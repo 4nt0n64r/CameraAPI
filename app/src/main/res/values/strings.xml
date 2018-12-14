@@ -4,4 +4,5 @@
     <string name="snack_no_name">Enter name, please.</string>
     <string name="permission_camera_err">Camera not allowed!</string>
     <string name="permission_storage_err">Storage not allowed!</string>
+    <string name="photo_button">Photo</string>
 </resources>

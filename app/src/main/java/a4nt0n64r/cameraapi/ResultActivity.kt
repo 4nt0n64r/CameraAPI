@@ -8,13 +8,18 @@ import kotlinx.android.synthetic.main.activity_result.*
 
 class ResultActivity : AppCompatActivity() {
 
+    companion object {
+        const val NAME = "NAME"
+        const val PIC = "PIC"
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
         val intent = intent
-        nameDisplay.setText(intent.getStringExtra("NAME").toString())
-        //получаем путь картинки или достаем картинку по известному пути
+        nameDisplay.setText(intent.getStringExtra(NAME).toString())
+        imageDisplay.setImageBitmap(intent.getParcelableExtra(PIC))
 
         //при повороте засунуть всё в onsaveinstState
 

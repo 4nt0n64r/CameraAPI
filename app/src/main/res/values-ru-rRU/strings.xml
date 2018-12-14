@@ -5,4 +5,5 @@
     <string name="snack_no_name">Введите, пожалуйста, имя</string>
     <string name="permission_camera_err">Нет разрешения на использование камеры!</string>
     <string name="permission_storage_err">Нет разрешения на использование файлов!</string>
+    <string name="photo_button">Фото</string>
 </resources>
